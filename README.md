@@ -2,7 +2,7 @@
 
 This image contains a cyrus imap service.
 
-There's three users belonging to a virtual test domain :
+Three users belong to the virtual test domain :
 
  * cyrus with 'cyrus' as a password, admin account
  * bob with 'bob' as a password
