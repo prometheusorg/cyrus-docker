@@ -51,7 +51,7 @@ ADD imapd.conf /etc/imapd.conf
 COPY startup.sh /root/startup.sh
 RUN chmod +x /root/startup.sh
 
-USER cyrus
-RUN ./tools/mkimap
+#USER cyrus
+#RUN ./tools/mkimap
 
 ENTRYPOINT ["/root/startup.sh"]
